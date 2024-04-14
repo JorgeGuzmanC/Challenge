@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+body {
+  font-family: "Abel", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.App {
+  max-width: 350px;
+  margin: 2rem auto;
+}
+
+form input {
+  padding: 5px;
+  min-width: 400px;
+  display: block;
+  border: 1px solid rgb(143, 143, 143);
+  outline: none;
+  border-radius: 3px;
+  font-family: "Abel", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+form input:focus {
+  border: 1px solid #09f;
+}
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+body {
+  font-family: "Abel", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.App {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+form textarea {
+  min-width: 400px;
+  display: block;
+  resize: none;
+  padding: 5px;
+  border: 1px solid rgb(143, 143, 143);
+  outline: none;
+  border-radius: 3px;
+  font-family: "Abel", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+form textarea:focus {
+  border: 1px solid #09f;
+}
+
+.filter{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.formulario{
+  display: flex;
+  margin: 25px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
