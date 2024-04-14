@@ -31,12 +31,18 @@ Para iniciar el servidor utilizar el siguiente comando
 
 ```bash
   cd server
+```
+```bash
   npm run dev
 ```
+
 Para iniciar el cliente utilizar el siguiente comando
 
 ```bash
   cd client
+```
+
+```bash
   npm start
 ```
 
