@@ -25,7 +25,7 @@ Instalar las dependencias
 
 ```bash
   cd server
-  npm i nodemon
+  npm install nodemon
 ```
 ```bash
   cd client
