@@ -1,7 +1,48 @@
+
+# 🎯 Challenge dev
+
 Challenge de desarrollo de aplicación en React con backend en NodeJS, Base de datos SQL (PostgreSQL)
 
 Aplicacion creada para el proceso de selección de TCIT.
 
-para iniciar el client utilizar npm run start
-para iniciar el server utilizar npm run dev
-crear una base de datos y cambiar configuracion en .env en el servidor con las credenciales correspondientes
+
+
+## Iniciar proyecto
+
+Clonar el proyecto o descargar localmente
+
+```bash
+  git clone https://github.com/JorgeGuzmanC/Challenge.git
+```
+
+Ir al directorio del proyecto
+
+```bash
+  cd Challenge
+```
+
+Instalar las dependencias
+
+```bash
+  npm install
+```
+
+Para iniciar el servidor utilizar el siguiente comando
+
+```bash
+  cd server
+  npm run dev
+```
+Para iniciar el cliente utilizar el siguiente comando
+
+```bash
+  cd client
+  npm start
+```
+
+## 👨🏻‍💻 Autor
+
+[@JorgeGuzmanC](https://github.com/JorgeGuzmanC)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jorge-guzmán-cura/)
+
