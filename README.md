@@ -7,7 +7,7 @@ Aplicacion creada para el proceso de selección de TCIT.
 
 
 
-## Iniciar proyecto
+## Clonar e instalar dependencias
 
 Clonar el proyecto o descargar localmente
 
@@ -24,15 +24,23 @@ Ir al directorio del proyecto
 Instalar las dependencias
 
 ```bash
-  npm install
+  cd server
+  npm i nodemon
 ```
+```bash
+  cd client
+  npm install react-scripts
+```
+## Base de datos
+
+Para la base de datos se debe crear una y cambiar los valores del archivo .env en el servidor con las credenciales correspondientes para realizar la conexión
+
+## Iniciar proyecto
 
 Para iniciar el servidor utilizar el siguiente comando
 
 ```bash
   cd server
-```
-```bash
   npm run dev
 ```
 
@@ -40,9 +48,6 @@ Para iniciar el cliente utilizar el siguiente comando
 
 ```bash
   cd client
-```
-
-```bash
   npm start
 ```
 
@@ -51,4 +56,5 @@ Para iniciar el cliente utilizar el siguiente comando
 [@JorgeGuzmanC](https://github.com/JorgeGuzmanC)
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jorge-guzmán-cura/)
+
 
